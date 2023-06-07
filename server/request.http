@@ -1,0 +1,289 @@
+###
+GET http://localhost:5000/api/dm/dmhh
+Content-Type: application/json
+
+
+###
+POST http://localhost:5000/api/dm/dmhh
+Content-Type: application/json
+
+{
+      "Ma_vt": "A021",
+      "Ten_vt": "Lúa",
+      "Dvt": "Kg",
+      "Ma_nh": "HH",
+      "Gia_mua": "15.0000,00",
+      "Gia_ban": "17,0.00",
+      "Gia_ban4": "25,000",
+      "Ts": 5 ,
+      "Loai_vt": "3",
+      "Sl_ton_min": "5.0",
+      "Sl_ton_max": "1,5",
+      "Tk_vt": "1111",
+      "Tk_gv": "555",
+      "Tk_dt": "111"
+}
+
+
+###
+DELETE  http://localhost:5000/api/dm/dmhh/A021
+Content-Type: application/json
+
+
+###
+PUT  http://localhost:5000/api/dm/dmhh
+Content-Type: application/json
+
+{
+      "Ma_vt": "A004",
+      "Ten_vt": "Lúa 504",
+      "Dvt": "Kg",
+      "Ma_nh": "HH",
+      "Gia_mua": "15.0000,00",
+      "Gia_ban": "17,0.00",
+      "Gia_ban4": "25,000",
+      "Ts": 5 ,
+      "Loai_vt": "3",
+      "Sl_ton_min": 20,
+      "Sl_ton_max": 15,
+      "Tk_vt": "111",
+      "Tk_gv": "555",
+      "Tk_dt": "1111"
+}
+
+###
+GET http://localhost:5000/api/dm/dmhh/a
+Content-Type: application/json
+
+
+
+                                    // Nhóm Vật Tư
+###
+GET http://localhost:5000/api/dm/dmnhvt
+Content-Type: application/json
+
+
+###
+POST http://localhost:5000/api/dm/dmnhvt
+Content-Type: application/json
+
+{
+    "Ma_nh" : "             Huỳnh Tuấn Kiệt *&%64784373?;./L Ơ   LP[,.Ư",
+    "Ten_nh" : "                a   a    Huỳnh *&^a    Tuấn                " ,
+    "Stt_nh" : "1"
+}
+
+###
+POST http://localhost:5000/api/dm/dmnhvt
+Content-Type: application/json
+
+{
+    "Ma_nh" : "vll",
+    "Ten_nh" : "Vật Liệu" ,
+    "Stt_nh" : "1"
+}
+
+
+###
+DELETE  http://localhost:5000/api/dm/dmnhvt/vll
+Content-Type: application/json
+
+
+###
+PUT  http://localhost:5000/api/dm/dmnhvt
+Content-Type: application/json
+
+{
+    "Ma_nh" : "vl",
+    "Ten_nh" : "Vật liệu 1" ,
+    "Stt_nh" : "1"
+}
+
+
+###
+GET http://localhost:5000/api/dm/dmnhvt/a
+Content-Type: application/json
+
+
+                                    
+                                    // Nhom Don Vi Tinh 
+###
+GET http://localhost:5000/api/dm/dmdvt
+Content-Type: application/json
+
+###
+POST http://localhost:5000/api/dm/dmdvt
+Content-Type: application/json
+
+{
+    "Dvt" : "lít"
+}
+
+###
+DELETE  http://localhost:5000/api/dm/dmdvt/Lít
+Content-Type: application/json
+
+
+###
+PUT  http://localhost:5000/api/dm/dmdvt
+Content-Type: application/json
+
+{
+    "Dvt" : "bao" ,
+    "Dvt_eng": ""
+}
+
+
+###
+GET http://localhost:5000/api/dm/dmdvt/n
+Content-Type: application/json
+
+
+
+
+                                    // Nhóm Đối Tượng 
+###
+GET http://localhost:5000/api/dm/dmnhdt
+Content-Type: application/json
+
+
+###
+POST http://localhost:5000/api/dm/dmnhdt
+Content-Type: application/json
+
+{
+    "Ma_nh_dt" : "thhh" ,
+    "Ten_nh_dt" : "Trường học"
+}
+
+
+###
+DELETE  http://localhost:5000/api/dm/dmnhdt/thh
+Content-Type: application/json
+
+
+###
+PUT  http://localhost:5000/api/dm/dmnhdt
+Content-Type: application/json
+
+{
+    "Ma_nh_dt" : "th" ,
+    "Ten_nh_dt" : "Trường học"
+}
+
+
+###
+GET http://localhost:5000/api/dm/dmnhdt/c
+Content-Type: application/json
+
+
+
+                                    // Đối Tượng 
+###
+GET http://localhost:5000/api/dm/dmdt
+Content-Type: application/json
+
+
+###
+POST http://localhost:5000/api/dm/dmdt
+Content-Type: application/json
+
+{
+      "Ma_dt": "CH11",
+      "Ten_dt": "Công ty TNHH FPT",
+      "Ma_nh_dt": "CH",
+      "Ma_so_thue": "256487",
+      "Dia_chi": "123 Đường số 7" ,
+      "Tel" : "",
+      "Fax" : "",
+      "Email" : "",
+      "Web" : ""
+}
+
+
+###
+DELETE http://localhost:5000/api/dm/dmdt/CH11
+Content-Type: application/json8563
+
+
+###
+PUT  http://localhost:5000/api/dm/dmdt
+Content-Type: application/json
+
+{
+      "Ma_dt": "FPT",
+      "Ten_dt": "Công ty TNHH FPT 3",
+      "Ma_nh_dt": "CT",
+      "Ma_so_thue": "256487",
+      "Dia_chi": "123 Đường số 78" ,
+      "Tel" : "",
+      "Fax" : "",
+      "Email" : "",
+      "Web" : ""
+}
+
+
+###
+GET  http://localhost:5000/api/dm/dmdt/t
+Content-Type: application/json8563
+
+
+
+                                                // Tài khoản 
+###
+GET http://localhost:5000/api/dm/dmtk
+Content-Type: application/json
+
+
+###
+POST http://localhost:5000/api/dm/dmtk
+Content-Type: application/json
+
+{
+      "Tk": "557",
+      "Ten_tk": "Doanh thu bán hàng hóa",
+      "Loai_tk": "T",
+      "Bac_tk": 2,
+      "Tk_me": "111",
+      "Tk_nt": "C",
+      "Tk_dt": "K"
+}
+
+###
+POST http://localhost:5000/api/dm/dmtk
+Content-Type: application/json
+
+{
+      "Tk": "112",
+      "Ten_tk": "Tiền gửi ngân hàng",
+      "Loai_tk": "Chi tiết", 
+      "Bac_tk": 2,
+      "Tk_me": "1111",
+      "Tk_nt": "Không",
+      "Tk_dt": "Không"
+}
+
+
+###
+DELETE  http://localhost:5000/api/dm/dmtk/557
+Content-Type: application/json
+
+
+###
+PUT http://localhost:5000/api/dm/dmtk
+Content-Type: application/json
+
+{
+      "Tk": "556",
+      "Ten_tk": "Doanh thu bán hàng hóa",
+      "Loai_tk": "C",
+      "Bac_tk": 2,
+      "Tk_me": "1111",
+      "Tk_nt": "C",
+      "Tk_dt": "K"
+}
+
+
+###
+GET http://localhost:5000/api/dm/dmtk/112
+Content-Type: application/json

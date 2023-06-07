@@ -1,0 +1,394 @@
+.app{
+  background-color: rgb(248, 248, 248);
+}
+
+.app-header {
+  background-color: rgba(29, 29, 29, 0.953);
+}
+
+.header {
+  color: rgb(0, 0, 0);
+  text-align: left;
+  font-size: 15px;
+}
+
+.title {
+  color: red;
+}
+
+.box {
+  padding-bottom: 5px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.table-data {
+  text-align: center;
+  width: 99%;
+  margin-left: 5px;
+}
+
+.button_Body {
+  border: none;
+  font-size: 15px;
+  color: white;
+  background-color: rgba(52, 157, 57, 0.89);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 90px;
+  height:35px
+}
+
+.button_Body:hover {
+  font-size: 14px;
+  color: white;
+  background-color: rgba(18, 133, 24, 0.89);
+  border: 1px solid rgba(18, 133, 24, 0.89);
+}
+
+.button_Body_Refresh {
+  border: none;
+  font-size: 15px;
+  color: white;
+  background-color: rgb(245, 167, 49);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  width: 60px;
+  height:35px
+}
+
+.button_Body_Refresh:hover {
+  font-size: 15px;
+  color: white;
+  background-color: rgb(245, 154, 17);
+  border: 1px solid rgb(245, 154, 17);
+}
+
+.table-header {
+  background-color: rgb(3, 172, 233);
+  color: white;
+  font-size: 14px;
+}
+
+.formInput {
+  border: 1px solid rgb(179, 179, 184);
+}
+
+/* .table {
+  height: 60%;              
+  display: block;
+} */
+
+.table-body {
+  color: black;
+  font-size: 18px;
+  text-align: center;
+  background-color: white;
+
+  /* overflow-y: scroll;      
+    height: 50%;            
+    width: 94%;
+    position: absolute; */
+}
+
+.table-body tr:hover {
+  background-color: rgba(248, 248, 248, 0.94);
+}
+
+table.table-bordered{
+  border:1px solid rgb(3, 172, 233);
+  margin-top:0px;
+}
+
+.table-Nhdt {
+  max-width: 500px;
+}
+
+.modal-add {
+  font-size: 15px;
+}
+
+.modal-add {
+  font-size: 15px;
+}
+
+.lable-modal-add {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 3px;
+  padding-bottom: 8px;
+}
+
+.input-modal-add {
+  border:1px solid rgb(148, 147, 147);
+  height: 30px;
+  font-size: 15px;
+}
+
+.set-button {
+  max-height: 200px;
+  width: 55px;
+  font-size: 16px;
+  border:1px solid rgb(3, 172, 233);
+  color: rgb(3, 172, 233);
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px; 
+}
+
+.set-button:hover {
+  background-color: rgb(3, 172, 233);
+  color: white;
+}
+
+.formPagination {
+  padding-top: 15px;
+}
+
+.pagination-lable {
+  text-align: right;
+  font-size: 16px;
+  color: black;
+  width: auto;
+  padding-top: 6px;
+  padding-left: 35px;
+} 
+
+.pagination-select {
+  text-align: left;
+  width: auto;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 44px;
+  border: 1px solid rgb(219, 219, 245);
+  cursor: pointer;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+} 
+
+.pagination-select-modal {
+  text-align: left;
+  width: auto;
+  height: 35px;
+  font-size: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 1px solid rgb(170, 170, 170);
+}
+
+.pagination-option {
+  font-size: 15px;
+}
+
+.pageNumbers {
+  list-style: none;
+  display: flex;
+  width: auto;
+}
+
+.pageNumbers li {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: 1px solid rgb(219, 219, 245);
+  cursor: pointer;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.pageNumbers li button {
+  height: 25px;
+  width: 45px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.pageNumbers li.active {
+  background-color: dodgerblue;
+  color: black;
+}
+
+.pageNumbers li button {
+  background-color: transparent;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  cursor: pointer;
+  
+}
+
+.pageNumbers li button:hover {
+  background-color: dodgerblue;
+  color: black;
+}
+
+.pageNumbers li button:focus {
+  outline: none;
+}
+
+.pageNumbersNHDT {
+  list-style: none;
+  display: flex;
+  max-width: 195px;
+}
+
+.pageNumbersNHDT li {
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 8px;
+  padding-right: 8px;
+  border: 1px solid rgb(219, 219, 245);
+  cursor: pointer;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.pageNumbersNHDT li button {
+  height: 25px;
+  width: 45px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+.pageNumbersNHDT li.active {
+  background-color: dodgerblue;
+  color: black;
+}
+
+.pageNumbersNHDT li button {
+  background-color: transparent;
+  border: none;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+  cursor: pointer;
+  
+}
+
+.pageNumbersNHDT li button:hover {
+  background-color: dodgerblue;
+  color: black;
+}
+
+.pageNumbersNHDT li button:focus {
+  outline: none;
+}
+
+.IconSearch {
+  text-align: center;
+  height: 35px;
+  width: 52px;
+  background-color: rgb(3, 172, 233);
+  border: 0px rgb(3, 172, 233);
+  border-bottom-right-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.IconSearch:hover {
+  background-color: rgb(0, 149, 202);
+}
+
+.modal-90w {
+  min-width:60%;
+  min-height: 60%;
+}
+
+.modal-80w {
+  min-width:70%;
+  min-height: 55%;
+}
+
+.modal-70w {
+  min-width:45%;
+  min-height: 60%;
+}
+
+.btnModal {
+  width: 34px;
+  height: 30px;
+  font-size: 18px;
+  background-color: white;
+  border:2px solid rgb(170, 170, 170);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+
+.selectPagination {
+  width: 60px;
+  height: 35px;
+  font-size: 15px;
+  text-align: center;
+  border:1px solid rgb(158, 158, 158);
+}
+
+
+.Modal_header{
+  height: 45px;
+}
+
+.Modal_body {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.Modal_footer {
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+
+.btn-search-Dmdvt {
+  width: 90px;
+  height: 34px;
+  background-color: white;
+  color: black;
+  font-size: 15px;
+  text-align: center;
+  border:1px solid rgb(158, 158, 158);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.btn-search-Dmdvt:hover {
+  background-color: rgb(240, 238, 238);
+}
+
+.name-input {
+  height: 12px;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.actionButton-DT {
+  text-align: center;
+
+}
+
+.tableDT {
+  overflow-x: auto;
+  overflow-y: auto;
+}
+
+
